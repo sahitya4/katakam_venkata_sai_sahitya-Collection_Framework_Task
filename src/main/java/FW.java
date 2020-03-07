@@ -5,6 +5,7 @@ public class FW
     FW()
     {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 10 elements initially :);
         for(int i=0;i<10;i++)
         {
             alist.add(sc.next());
