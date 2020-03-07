@@ -45,6 +45,10 @@ public class Main
                     System.out.println("element is : " + frame.fetch_element(index2));
                 }
             }
+            else if(option==4)
+            {
+                continue;
+            }
             else
             {
                 System.out.println("Please enter valid option");
